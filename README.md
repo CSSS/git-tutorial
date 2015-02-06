@@ -12,9 +12,20 @@ Welcome! In this tutorial you're going to learn:
 Let's get started.
 
 ## What is Git?
+Git is *Version Control Software*. You may have heard of others like `svn`.
+Git allows you to save your work and maintain a **visible history** of that
+work. You can even revert to previous stages of your history, and make
+multiple branches of that history for experimentation.
+
+Git is great for working in groups as well, because the history of who
+did what and when they did it is completely transparent.
+
+We recommend you follow [this visual guide](https://pcottle.github.io/learnGitBranching)
+and complete the first three tasks before continuing with the
+tutorial below.
 
 ## Git Setup
-### Installion
+### Installation
 
 Programs in Linux are never downloaded and installed from websites like
 they are with Windows or Mac. Every Linux distribution has a
@@ -87,7 +98,7 @@ account. You can do whatever you want to it.
 *Forking* generally means one of two things:
 
 1. Copying a project's code and taking it in a new
-direction for philisophical/political reasons, or;
+direction for philosophical/political reasons, or;
 2. Making a copy of a project on Github.
 
 ### Cloning your Fork
@@ -133,11 +144,11 @@ be in *Normal Mode* to run the commands below:
 ### Checking your Changes
 Use `git diff` to see what changes you've made since your last commit.
 
-### Commiting
+### Committing
 When you want to track a new file you've added to your project,
 use `git add thefilenamehere`. Since `README.md` is already tracked
 by the project, we can just use `git commit -a`, which prepares
-all files you've changed this time around to be commited.
+all files you've changed this time around to be committed.
 
 `git commit -a` will open up an editor for you to write a commit
 message in. Once you do so, and then save and leave, the commit
@@ -191,7 +202,7 @@ However we're going to completely delete the commit you just
 made. Remember `HEAD` from *Learn Git Branching*? Here are
 two handy commands:
 
-* `git reset --hard HEAD`: Deletes all your *current* uncommited changes.
+* `git reset --hard HEAD`: Deletes all your *current* uncommitted changes.
 * `git reset --hard HEAD^`: Deletes your latest commit.
 
 Do the second one to kill your commit.
