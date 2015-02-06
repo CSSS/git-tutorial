@@ -119,7 +119,7 @@ nothing on Github will be affected until you make a `git push`.
 
 ### Making a change
 
-Thsi si a teriblee speld sentins.
+This is a terribly spelled sentence.
 
 Fix the sentence above in an editor of your choice. We
 recommend `emacs`, `vim`, or Sublime Text. In particular,
@@ -134,12 +134,15 @@ them.
 * Leave emacs: `C-x C-c`
 
 #### Vim
-In vim you have to type `i` to enter *Insert Mode* before you
-can type. `Esc` puts you back into *Normal Mode*. You need to
+In vim you have to type `i` or `a` to enter *Insert Mode* before you
+can type. `i` enters *Insert Mode* before the cursor, while `a` enters after
+the cursor. `Esc` puts you back into *Normal Mode*. You need to
 be in *Normal Mode* to run the commands below:
 
 * Save a change: `:w`
 * Leave vim: `:q`
+* Do both at once: `:wq`
+* Leave without saving changes: `:q!`
 
 ### Checking your Changes
 Use `git diff` to see what changes you've made since your last commit.
