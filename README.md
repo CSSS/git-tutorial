@@ -31,8 +31,8 @@ manager. Do the following in a terminal to get git:
 `-S` means *sync* and will download any package you ask it for.
 
 #### Mint / Ubuntu / ElementaryOS (Debian)
-All these three are actually children of the very first Linux distribution,
-Debian. Hence they all use the same packaging software. Do the
+All these three are actually children/grandchildren of the very first Linux
+distribution, Debian. Hence they all use the same packaging software. Do the
 following in a terminal to get git:
 
     apt-get install git
@@ -86,12 +86,12 @@ account. You can do whatever you want to it.
 
 *Forking* generally means one of two things:
 
-1. Taking a project, copying it, and taking it in a new
+1. Copying a project's code and taking it in a new
 direction for philisophical/political reasons, or;
-2. Making a copy of it on Github.
+2. Making a copy of a project on Github.
 
 ### Cloning your Fork
-Move back to your terminal. We're now going to clone to the repo
+Move back to your terminal. We're now going to clone the repo
 you just forked.
 
 *Cloning* is the process of copying a remote repo (like on Github)
@@ -139,8 +139,8 @@ use `git add thefilenamehere`. Since `README.md` is already tracked
 by the project, we can just use `git commit -a`, which prepares
 all files you've changed this time around to be commited.
 
-`git commit` will open up an editor for you to write a commit
-message in. One you do so, and then save and leave, the commit
+`git commit -a` will open up an editor for you to write a commit
+message in. Once you do so, and then save and leave, the commit
 will be made.
 
 #### Writing Good Commit Messages
@@ -179,7 +179,7 @@ Here we see:
 - Further problems can be addressed.
 
 ### Checking the Git Log
-Now that you've made a commit, let's check confirm it with
+Now that you've made a commit, let's confirm it with
 `git log`. You should see a list of all the recent commits,
 with the one you just made at the top.
 
@@ -198,8 +198,8 @@ Do the second one to kill your commit.
 
 ### Add your Name
 That's pretty much all we have to teach you right now. There's more of
-course, but this was a good start. See the file `COMPLETED.md`? Add your
-name and the date to it, and commit the change.
+course, but the info here is a good start. See the file `COMPLETED.md`? Add
+your name and the date to it, and commit the change.
 
 ### Push to your Fork
 The commit you made is local to your machine. By *Pushing*, we can sync your
