@@ -237,3 +237,7 @@ in, and you'll be forever remembered for having completed this tutorial.
 The above process is how modern collaborative software development
 is done. By getting a handle on it now, you'll have a head-start
 in your co-op placements and other real job placements. Good luck!
+
+### Any Questions?
+If you have any questions, feel free to ask us! Click on "Issues" on
+the right and open a new issue.
