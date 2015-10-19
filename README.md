@@ -33,8 +33,8 @@ they are with Windows or Mac. Every Linux distribution has a
 its dependencies from the central servers of your distro and installs them
 exactly where your system expects them to be in order to be used.
 
-#### Manjaro (Arch Linux)
-Manjaro is a child of Arch, meaning they share a lot, including a package
+#### Antergos / Manjaro (Arch Linux)
+Antergos and Manjaro are children of Arch, meaning they share a lot, including a package
 manager. Do the following in a terminal to get git:
 
     pacman -S git
