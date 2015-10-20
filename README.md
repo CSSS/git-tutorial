@@ -7,6 +7,7 @@ Welcome! In this tutorial you're going to learn:
 - How to install/configure git
 - How to edit files in emacs/vim
 - Simple git usage (diffs, commits, etc.)
+- Using github with your Visual Studio Project
 - How to navigate and use Github
 
 Let's get started.
