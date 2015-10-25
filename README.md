@@ -5,9 +5,11 @@ Welcome! In this tutorial you're going to learn:
 
 - Basic command-line use
 - How to install/configure git
-- How to edit files in emacs/vim
+- How to edit files in emacs/vim/atom or your fav editor
 - Simple git usage (diffs, commits, etc.)
-- Using github with your Visual Studio Project
+- Simple collaboration exercise in Python
+- Using Github with your Visual Studio project
+- Simple collaboration exercise in C
 - How to navigate and use Github
 
 Let's get started.
