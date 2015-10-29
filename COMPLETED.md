@@ -7,3 +7,4 @@ Everyone below has completed this git tutorial:
 * James Hannah - 2015 Feb 06
 * Jason Wang - 2015 Feb 06
 * David Miiller - 2015 April 26
+* Jordan Siaw - 2015 Oct 29
