@@ -40,7 +40,7 @@ following in a terminal to get git:
 
     apt-get install git
 
-These distributions also have graphical packaging software, but for now
+These distributions also have graphical packaging software, but for now,
 let's get used to using the command line.
 
 ### Configuration
@@ -133,18 +133,17 @@ be in *Normal Mode* to run the commands below:
 Use `git diff` to see what changes you've made since your last commit.
 
 ### Committing
-When you want to track a new file you've added to your project,
+To track a new file that you've added to your project,
 use `git add thefilenamehere`. Since `README.md` is already tracked
-by the project, we can just use `git commit -a`, which prepares
-all files you've changed this time around to be committed.
+by the project, we can just use `git commit -a`, which commits
+all the files you've changed.
 
 `git commit -a` will open up an editor for you to write a commit
-message in. Once you do so, and then save and leave, the commit
+message in. Once you write and save the commit message, the commit
 will be made.
 
 #### Writing Good Commit Messages
-**Advice:** Writing good commit messages is important. Future you (or a
-coworker) will love you for it, trust me. Here's a terrible commit:
+**Advice:** Writing good commit messages is important. In future, you (or your coworkers) will love you for it. Here's an example of a terrible commit message:
 
 ```
 commit 2e4c6df191cdb6597464122d05adae61c314e91f
@@ -154,9 +153,9 @@ Date:   Tue Sep 11 18:59:22 2012 +0900
     Fixed a bug
 ```
 
-What was the problem? Where was it? How did you fix it?
+What was the bug? Where was it? How did you fix it?
 
-Here's a good commit:
+Here's a good commit message:
 
 ```
 commit 71c26a15c9f2f763028e34c6ddde83b1763d93d0
@@ -173,8 +172,8 @@ Date:   Sat Jan 3 09:19:48 2015 -0800
 
 Here we see:
 - The title describes new behaviour.
-- A github issue is referenced (and actually closed) by this commit.
-- Some reasoning was given for the change.
+-A github issue is referenced (and closed) by this commit.
+- The reason for making the changes was mentioned in the message.
 - Further problems can be addressed.
 
 ### Checking the Git Log
@@ -186,9 +185,8 @@ with the one you just made at the top.
 If you screwed up your latest commit message, you can change it
 with `git commit --amend`.
 
-However we're going to completely delete the commit you just
-made. Remember `HEAD` from *Learn Git Branching*? Here are
-two handy commands:
+Remember `HEAD` from *Learn Git Branching*? To completely delete the commit you just
+made, here are two handy commands:
 
 * `git reset --hard HEAD`: Deletes all your *current* uncommitted changes.
 * `git reset --hard HEAD^`: Deletes your latest commit.
@@ -201,28 +199,31 @@ course, but the info here is a good start. See the file `COMPLETED.md`? Add
 your name and the date to it, and commit the change.
 
 ### Push to your Fork
-The commit you made is local to your machine. By *Pushing*, we can sync your
-Clone and your Fork, and your new commit will then be on Github too.
+The commit you made is on your local machine. By *Pushing*, we can sync your
+Clone and your Fork.
 
     git push origin master
+    
+Your new commit will then be on Github too.
 
 ### Make a Pull Request
-Okay, the commit is now in your Fork too. But its still not in the
-original repository you copied in the first place. By making a *Pull Request*
-from your Fork you can ask the maintainers of the original repository
+The commit is now in your Fork, but it's not in the
+original repository you copied from. By making a *Pull Request*
+from your Fork, you can ask the maintainers of the original repository
 to merge your changes into the master project.
 
 On your Fork's page on Github, there should be a Green button near
-the upper-left. Click that, then hit *Create Pull Request* on the
+the upper-left. Click on it, and hit *Create Pull Request* on the
 next page. This will create a new *Issue* in the main repository,
-where everyone can discuss your commits. The maintainers
+where everyone can comment on your commits. The maintainers
 may ask you to make further changes before they merge.
 
 ### You're Done!
-Pretty soon the `csss-git` repository maintainers should merge your commit
-in, and you'll be forever remembered for having completed this tutorial.
 
-The above process is how modern collaborative software development
+Soon the `csss-git` repository maintainers will merge your commit
+in, and you'll be remembered for having completed this tutorial.
+
+The process explained above is how modern collaborative software development
 is done. By getting a handle on it now, you'll have a head-start
 in your co-op placements and other real job placements. Good luck!
 
