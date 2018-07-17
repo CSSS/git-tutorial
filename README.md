@@ -1,7 +1,15 @@
 CSSS Git Tutorial
 =================
 
-Welcome! In this tutorial you're going to learn:
+## What is Git?
+Git is a *Version Control Software* that allows you to save and maintain a history of your work. You can also revert to previous stages of your history, and make multiple branches of that history for experimentation.
+
+Git is great for projects that have multiple contributors, because the history of all contributions is transparent.
+
+We recommend you to follow [this guide](https://pcottle.github.io/learnGitBranching)
+and complete the first three tasks before following with the
+tutorial below.
+In this tutorial you're going to learn:
 
 - How to install/configure git
 - Git basics (diffs, commits, etc.)
@@ -12,58 +20,40 @@ Welcome! In this tutorial you're going to learn:
 
 There will also be two collaboration exercises in C and Python. Let's get started!
 
-## What is Git?
-Git is a *Version Control Software*. You may have heard of other version control systems such as `svn`.
-Git allows you to save your work and maintain a **visible history** of that
-work. You can even revert to previous stages of your history, and make
-multiple branches of that history for experimentation.
-
-Git is great for working in groups as well, because the history of who
-did what and when they did it is completely transparent.
-
-We recommend you follow [this visual guide](https://pcottle.github.io/learnGitBranching)
-and complete the first three tasks before continuing with the
-tutorial below.
-
 ## Git Setup
 ### Installation
-
-Programs in Linux are never downloaded and installed from websites like
-they are with Windows or Mac. Every Linux distribution has a
-*package manager*, which when asked for a program, downloads it and
-its dependencies from the central servers of your distro and installs them
-exactly where your system expects them to be in order to be used.
+Downloading and installating programs in Linux is very different from Windows and Mac. Every Linux distribution has a
+*package manager* that downloads programs and their dependencies from the central servers of your Linux distribution source and installs them where your system expects them to be.
 
 #### Antergos / Manjaro (Arch Linux)
-Antergos and Manjaro are children of Arch, meaning they share a lot, including a package
+Antergos and Manjaro are both children of Arch. This means that they share a lot of similarities, including package
 manager. Do the following in a terminal to get git:
 
     pacman -S git
 
-`-S` means *sync* and will download any package you ask it for.
+`-S` means *sync* and will download the package you are looking for
 
 #### Mint / Ubuntu / ElementaryOS (Debian)
-All these three are actually children/grandchildren of the very first Linux
-distribution, Debian. Hence they all use the same packaging software. Do the
+Mint, Ubuntu and ElementaryOS are the children/grandchildren of the very first Linux
+distribution, Debian, hence they all use the same packaging software. Do the
 following in a terminal to get git:
 
     apt-get install git
 
-These distros also have graphical packaging software, but for now
+These distributions also have graphical packaging software, but for now
 let's get used to using the command line.
 
 ### Configuration
 Git needs to know who you are. Enter the following two commands
-into your terminal:
+into your terminal to set your identity:
 
 ```
 git config --global user.name  "Your Name"
 git config --global user.email "you@whatever.com"
 ```
 
-Every time you make a commit with git, your information will be
-associated with that commit. This makes it very clear who
-changed what and when in a project.
+Every committed change in git, is
+associated with a username. This will allow git users to know who makes the changes. 
 
 ## Github
 
