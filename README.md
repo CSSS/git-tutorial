@@ -58,24 +58,19 @@ associated with a username. This will allow git users to know who makes the chan
 ## Github
 
 Make a [Github](https://github.com) account if you haven't already.
-What Github *is* is a site to host your code (your repos). What it *allows*
-is a collaborative coding environment. Users can comment on code, create
-issues (for bugs), copy repos, and merge their changes together.
+Github is a website that hosts your code (your repositories) and allows collaborative coding. Users can comment on code, create issues, copy repos, and merge their changes together.
 
-The CSSS uses Github to store our documents, and you can use it
-to keep all your future coding projects backed up, including
-code you write for your classes.
+The CSSS uses Github to store our documents. You can back up all of your future coding projects, including your coding assignments ,under [CSSS](https://github.com/CSSS) in Github.
 
 Q: *But shadowy CSSS git tutorial narrator, why would I want to put
 all my code up on the internet? Won't people find my stuff and
 copy it?*
 
-A: Github actually has a
-[student pack](https://education.github.com/pack) which gives
-you loads of free access to various web services. Notably:
+A: Github has a
+[student pack](https://education.github.com/pack) which gives you free access to various web services:
 
-* Free Github Micro Account (5 Private Repos. No one else can see your code.)
-* $100 credit for DigitalOcean (web hosting. Their cheapest server is $5/month, meaning you get 20 months to do whatever you want with a server.)
+* Free Github Micro Account (5 Private Repos. No one else can see your code)
+* $100 credit for DigitalOcean (Provides web hosting services). DigitalOcean's cheapest server costs $5/month. You can use the server for 20 months.
 * Free `.me` domain name for a year with Namecheap.
 
 ## Getting to Work
