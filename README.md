@@ -3,19 +3,17 @@ CSSS Git Tutorial
 
 Welcome! In this tutorial you're going to learn:
 
-- Basic command-line use
 - How to install/configure git
-- How to edit files in emacs/vim/atom or your fav editor
-- Simple git usage (diffs, commits, etc.)
-- Simple collaboration exercise in Python
-- Using Github with your Visual Studio project
-- Simple collaboration exercise in C
-- How to navigate and use Github
+- Git basics (diffs, commits, etc.)
+- Basic git commands on the command-line
+- How to edit files in a text editor
+- How to work with Github
+- How to use Github with a Visual Studio project
 
-Let's get started.
+There will also be two collaboration exercises in C and Python. Let's get started!
 
 ## What is Git?
-Git is *Version Control Software*. You may have heard of others like `svn`.
+Git is a *Version Control Software*. You may have heard of other version control systems such as `svn`.
 Git allows you to save your work and maintain a **visible history** of that
 work. You can even revert to previous stages of your history, and make
 multiple branches of that history for experimentation.
