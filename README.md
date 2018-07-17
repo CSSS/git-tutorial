@@ -58,7 +58,7 @@ associated with a username. This will allow git users to know who makes the chan
 ## Github
 
 Make a [Github](https://github.com) account if you haven't already.
-Github is a website that hosts your code (your repositories) and allows collaborative coding. Users can comment on code, create issues, copy repos, and merge their changes together.
+Github is a website that hosts your code (your repositories) and allows collaborative coding. Users can comment on code, create issues, copy repositories, and merge their changes together.
 
 The CSSS uses Github to store our documents. You can back up all of your future coding projects, including your coding assignments ,under [CSSS](https://github.com/CSSS) in Github.
 
@@ -69,48 +69,47 @@ copy it?*
 A: Github has a
 [student pack](https://education.github.com/pack) which gives you free access to various web services:
 
-* Free Github Micro Account (5 Private Repos. No one else can see your code)
+* Free Github Micro Account (5 Private repositories. No one else can see your code)
 * $100 credit for DigitalOcean (Provides web hosting services). DigitalOcean's cheapest server costs $5/month. You can use the server for 20 months.
 * Free `.me` domain name for a year with Namecheap.
 
-## Getting to Work
-### Forking this Repo
-In the top-right corner of this Github page you should see a button
-labeled `Fork`. Click it.
+## Getting started with this repository
+### Forking this repository
+In the top-right corner of this page you should see a button
+labeled `Fork`. Click on it.
 
-You now have a perfect copy of this repo that exists on your Github
+You now have a copy of this repositories on your Github
 account. You can do whatever you want to it.
 
-*Forking* generally means one of two things:
+*Forking* generally has one of the following meanings:
 
 1. Copying a project's code and taking it in a new
 direction for philosophical/political reasons, or;
 2. Making a copy of a project on Github.
 
 ### Cloning your Fork
-Move back to your terminal. We're now going to clone the repo
+Open terminal. We're now going to clone the repository
 you just forked.
 
-*Cloning* is the process of copying a remote repo (like on Github)
-to your own machine to work on.
+*Cloning* is the process of copying a remote repository (e.g. a repository on Github)
+to your machine.
 
-Using `cd` (change directory), move to a directory using you'd like
-your clone to be in, and enter the following:
+Using `cd` (change directory), move to a directory you'd like
+your clone to be in, then enter the following command:
 
     git clone https://github.com/your-github-account/csss-git.git
 
 Use `ls` and you should see the `csss-git` folder. It contains the
-contents of the repo. You can make whatever changes you want to it;
-nothing on Github will be affected until you make a `git push`.
+contents of the repository. You can the code in the csss-git folder.
+Your Github code will not be affected unless you make a `git push`.
 
-### Making a change
+### Making changes
 
 Thsi si a teriblee speld sentins.
 
 Fix the sentence above in an editor of your choice. We
 recommend `emacs`, `vim`, or Sublime Text. In particular,
-`emacs` and `vim` run in the terminal. Since you're going to
-be spending a lot of time there, you might as well get used to
+`emacs` and `vim` run in the terminal. Since you're going to work a lot with these editors, you might as well get used to
 them.
 
 #### Emacs
@@ -120,9 +119,9 @@ them.
 * Leave emacs: `C-x C-c`
 
 #### Vim
-In vim you have to type `i` or `a` to enter *Insert Mode* before you
-can type. `i` enters *Insert Mode* before the cursor, while `a` enters after
-the cursor. `Esc` puts you back into *Normal Mode*. You need to
+In vim, you have to type `i` or `a` to enter *Insert Mode* before you
+can type. `i` enters *Insert Mode* before the cursor, while `a` enters *Insert Mode* after
+the cursor. `Esc` takes you back to the *Normal Mode*. You need to
 be in *Normal Mode* to run the commands below:
 
 * Save a change: `:w`
@@ -209,18 +208,18 @@ Clone and your Fork, and your new commit will then be on Github too.
 
 ### Make a Pull Request
 Okay, the commit is now in your Fork too. But its still not in the
-original repo you copied in the first place. By making a *Pull Request*
-from your Fork you can ask the maintainers of the original repo
+original repository you copied in the first place. By making a *Pull Request*
+from your Fork you can ask the maintainers of the original repository
 to merge your changes into the master project.
 
 On your Fork's page on Github, there should be a Green button near
 the upper-left. Click that, then hit *Create Pull Request* on the
-next page. This will create a new *Issue* in the main repo,
+next page. This will create a new *Issue* in the main repository,
 where everyone can discuss your commits. The maintainers
 may ask you to make further changes before they merge.
 
 ### You're Done!
-Pretty soon the `csss-git` repo maintainers should merge your commit
+Pretty soon the `csss-git` repository maintainers should merge your commit
 in, and you'll be forever remembered for having completed this tutorial.
 
 The above process is how modern collaborative software development
