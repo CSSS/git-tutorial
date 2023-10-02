@@ -9,7 +9,7 @@ Git is great for projects that have multiple contributors, because the history o
 We recommend you to follow [this guide](https://pcottle.github.io/learnGitBranching)
 and complete the first three tasks before following with the
 tutorial below.
-In this tutorial you're going to learn:
+In this tutorial you are going to learn:
 
 - How to install/configure git
 - Git basics (diffs, commits, etc.)
