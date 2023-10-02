@@ -2,7 +2,7 @@ CSSS Git Tutorial
 =================
 
 ## What is Git?
-Git is a *Version Control Software* that allows you to save and maintain a history of your work. You can also revert to previous stages of your history, and make multiple branches of that history for experimentation.
+Git is a *Version  Software* that allows you to save and maintain a history of your work. You can also revert to previous stages of your history, and make multiple branches of that history for experimentation.
 
 Git is great for projects that have multiple contributors, because the history of all contributions is transparent.
 
@@ -53,7 +53,7 @@ git config --global user.email "you@whatever.com"
 ```
 
 Every committed change in git, is
-associated with a username. This will allow git users to know who makes the changes. 
+associated with a username. This will allow git users to know who makes the changes.
 
 ## Github
 
@@ -203,7 +203,7 @@ The commit you made is on your local machine. By *Pushing*, we can sync your
 Clone and your Fork.
 
     git push origin master
-    
+
 Your new commit will then be on Github too.
 
 ### Make a Pull Request
