@@ -25,13 +25,6 @@ There will also be two collaboration exercises in C and Python. Let's get starte
 Downloading and installating programs in Linux is very different from Windows and Mac. Every Linux distribution has a
 *package manager* that downloads programs and their dependencies from the central servers of your Linux distribution source and installs them where your system expects them to be.
 
-#### Antergos / Manjaro (Arch Linux)
-Antergos and Manjaro are both children of Arch. This means that they share a lot of similarities, including package
-manager. Do the following in a terminal to get git:
-
-    pacman -S git
-
-`-S` means *sync* and will download the package you are looking for
 
 #### Mint / Ubuntu / ElementaryOS (Debian)
 Mint, Ubuntu and ElementaryOS are the children/grandchildren of the very first Linux
