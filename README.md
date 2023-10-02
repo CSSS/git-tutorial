@@ -64,7 +64,6 @@ A: Github has a
 
 * Free Github Micro Account (5 Private repositories. No one else can see your code)
 * $100 credit for DigitalOcean (Provides web hosting services). DigitalOcean's cheapest server costs $5/month. You can use the server for 20 months.
-* Free `.me` domain name for a year with Namecheap.
 
 ## Getting started with this repository
 ### Forking this repository
